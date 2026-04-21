@@ -13,7 +13,7 @@ I considered other approaches like using Canny edge detection to find ridge boun
 
 **Why this method works well for SEM:**
 - **Noise Tolerance:** Vertical projection naturally smooths over the internal granular texture (secondary electron noise) on the ridge surfaces, making it more robust compared to pure 2D Canny/Sobel edge detection.
-- **Accurate Trench Measurement:** Unlike a peak-to-peak distance calculation (which only yields the *pitch/period*), this boundary method actually isolates the empty trench space.
+- **Accurate Trench Measurement:** Unlike a peak-to-peak distance calculation (which only yields the pitch/period), this boundary method actually isolates the empty trench space.
 
 ---
 
