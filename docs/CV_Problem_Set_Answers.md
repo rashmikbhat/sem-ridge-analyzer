@@ -1,10 +1,10 @@
 ### COMPUTER VISION PROBLEM SET - SEM IMAGE ANALYSIS
 
-#### GAP (TRENCH) CALCULATION METHOD
+#### QUESTION 1: GAP (TRENCH) CALCULATION METHOD
 
 **Implementation Strategy:**
 
-I used a **ridge boundary-based projection approach**:
+After detecting the substrate with RANSAC and binarizing the image with Otsu thresholding, I used a **ridge boundary-based projection approach**:
 1. Compute a 1D vertical projection (summing pixel intensities column-wise) to collapse the 2D texture.
 2. Isolate ridge regions using a relative peak threshold (25% of the maximum projection intensity).
 3. Calculate the physical gap dynamically: `gap = next_ridge_start - current_ridge_end`.
@@ -17,7 +17,7 @@ I considered other approaches like using Canny edge detection to find ridge boun
 
 ---
 
-#### ALGORITHM ASSUMPTIONS & ROBUSTNESS
+#### QUESTION 2: ALGORITHM ASSUMPTIONS & ROBUSTNESS
 
 **Current Pipeline Constraints & Assumptions:**
 
