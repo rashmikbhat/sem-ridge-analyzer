@@ -1,6 +1,6 @@
 ### COMPUTER VISION PROBLEM SET - SEM IMAGE ANALYSIS
 
-#### QUESTION 1: GAP (TRENCH) CALCULATION METHOD
+#### GAP (TRENCH) CALCULATION METHOD
 
 **Implementation Strategy:**
 
@@ -17,7 +17,7 @@ I considered other approaches like using Canny edge detection to find ridge boun
 
 ---
 
-#### QUESTION 2: ALGORITHM ASSUMPTIONS & ROBUSTNESS
+#### ALGORITHM ASSUMPTIONS & ROBUSTNESS
 
 **Current Pipeline Constraints & Assumptions:**
 
